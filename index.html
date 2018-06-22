@@ -1,5 +1,3 @@
-<!-- key == OWJYPKY48DCaZao4E4NufYw8Xu2o2teQ -->
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -17,22 +15,22 @@
 <body>
   <div class="container" style="background-image:url(assets/images/kindajean.png)">
     <div class="row">
-      <div class="col-md-12" id="querylist">
-        <button type="button" class="btn btn-info">Condor</button>
-        <button type="button" class="btn btn-info">Hawk</button>
-        <button type="button" class="btn btn-info">Eagle</button>
-        <button type="button" class="btn btn-info">Pigeon</button>
-        <button type="button" class="btn btn-info">Egret</button>
-        <button type="button" class="btn btn-info">Ostrich</button>
+      <div class="col-md-12" id="queryList">
       </div>
     </div>
 
     <div class="row">
-      <div class="col-md-9" id="giflist">
+      <div class="col-md-8" id="gifList">
         <h1>Your Gifs</h1>
       </div>
-      <div class="col-md-3" id="searcharea" style="background-color: gray">
-        hey! search coming soon.
+      <div class="col-md-4" id="searcharea" style="background-color: lightgray">
+        <form id="queryForm">
+          <label for="queryInput">Choose GIF search term</label>
+          <input type="text" id="queryInput"><br>
+
+          <!-- Button triggers new movie to be added -->
+          <input id="add-gif-query" type="submit" value="Search">
+        </form>
       </div>
     </div>
   </div>
